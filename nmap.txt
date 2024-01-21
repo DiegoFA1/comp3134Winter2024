@@ -1,0 +1,55 @@
+nmap {host_name}
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-21 00:11 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0082s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.81 seconds
+
+nmap -p {port_number} {host_name}
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 443 spotify.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-21 00:14 UTC
+Nmap scan report for spotify.com (35.186.224.25)
+Host is up (0.0013s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:c36::
+rDNS record for 35.186.224.25: 25.224.186.35.bc.googleusercontent.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+
+nmap -p {start_port_range}-{end_port_range} {host_name}
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 80-500 figma.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-21 00:15 UTC
+Nmap scan report for figma.com (13.225.195.15)
+Host is up (0.0080s latency).
+Other addresses for figma.com (not scanned): 13.225.195.44 13.225.195.82 13.225.195.73
+rDNS record for 13.225.195.15: server-13-225-195-15.yul62.r.cloudfront.net
+Not shown: 419 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.00 seconds
+
+nmap -F {host_name}
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -F discord.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-01-21 00:16 UTC
+Nmap scan report for discord.com (162.159.135.232)
+Host is up (0.0022s latency).
+Other addresses for discord.com (not scanned): 162.159.137.232 162.159.138.232 162.159.136.232 162.159.128.233
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 1.68 seconds

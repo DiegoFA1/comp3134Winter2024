@@ -1,0 +1,14 @@
+Etern@Diego MINGW64 ~
+$ ping 147.182.153.220 -w 10
+
+Haciendo ping a 147.182.153.220 con 32 bytes de datos:
+Respuesta desde 147.182.153.220: bytes=32 tiempo=18ms TTL=57
+Respuesta desde 147.182.153.220: bytes=32 tiempo=16ms TTL=57
+Respuesta desde 147.182.153.220: bytes=32 tiempo=14ms TTL=57
+Respuesta desde 147.182.153.220: bytes=32 tiempo=17ms TTL=57
+
+Estadísticas de ping para 147.182.153.220:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 14ms, Máximo = 18ms, Media = 16ms

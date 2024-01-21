@@ -1,0 +1,31 @@
+spotify.com
+    IP Address: 	35.186.224.25
+    Linked IPv6 Address: 	IPv62600:1901:1:c36::
+    IP Location: 	USA,    Missouri,    Kansas City
+    Hosting Address: 	1600 Amphitheatre Parkway, Mountain View, CA, 94043, US
+
+twitter.com
+    IP Address: 	104.244.42.1
+    IP Location: 	USA
+    Owner IP Range: 	104.244.40.0 - 104.244.47.255    (2,048 ip)  
+    Owner Address: 	1355 Market Street, Suite 900, San Francisco, CA, 94103, US
+
+discord.com
+    IP Address: 	162.159.128.233
+    Linked IPv6 Address: 	IPv62606:4700:7::a29f:88e8
+    IP Location: 	USA
+    Hosting Address: 	665 Third Street #207, San Francisco, CA, 94107, US
+
+reddit.com
+    IP Address: 	151.101.1.140
+    Linked IPv6 Address: 	IPv62a04:4e42:200::396
+    IP Location: 	USA
+    Hosting Address: 	Po Box 78266, San Francisco, CA, 94107, US
+
+amazon.ca
+    IP Address: 	52.94.225.242
+    IP Location: 	USA,    Virginia,    Ashburn
+    Hosting Address: 	1200 12Th Avenue South, Seattle, WA, 98144, US
+
+
+

@@ -1,0 +1,32 @@
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# traceroute www.wordpress.org
+traceroute to www.wordpress.org (198.143.164.252), 30 hops max, 60 byte packets
+ 1  162.243.190.8 (162.243.190.8)  1.562 ms  1.528 ms 162.243.190.9 (162.243.190.9)  1.509 ms
+ 2  143.198.252.194 (143.198.252.194)  1.491 ms 143.198.252.196 (143.198.252.196)  1.471 ms 143.198.252.192 (143.198.252.192)  1.452 ms
+ 3  e0-3.cr1.yyz1.ca.unitasglobal.net (206.108.34.221)  2.071 ms  2.053 ms  2.422 ms
+ 4  * * *
+ 5  inap.cust.chi1.us.unitasglobal.net (198.232.115.154)  12.934 ms  12.980 ms  12.946 ms
+ 6  border4.et-4-0-2-bbnet3.chg.us.unitasglobal.net (64.94.32.8)  12.769 ms border3.et-4-0-2-bbnet3.chg.us.unitasglobal.net (64.94.32.7)  12.230 ms border4.et-4-0-2-bbnet3.chg.us.unitasglobal.net (64.94.32.8)  12.297 ms
+ 7  inapvoxcust-lag.border3.chg.us.unitasglobal.net (64.74.106.114)  12.865 ms inapvoxcust-LAG.border4.chg.us.unitasglobal.net (64.94.34.70)  12.847 ms inapvoxcust-lag.border3.chg.us.unitasglobal.net (64.74.106.114)  12.955 ms
+ 8  agg2.c13.r03.s101.chi03.singlehop.net (108.178.47.245)  12.939 ms  12.174 ms  12.125 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
