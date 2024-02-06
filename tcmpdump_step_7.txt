@@ -1,0 +1,8 @@
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+00:22:46.385539 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 1985584081:1985584125, ack 1056669365, win 501, length 44
+00:22:46.385611 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 44:96, ack 1, win 501, length 52
+00:22:46.385708 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 96:232, ack 1, win 501, length 136
+00:22:46.385787 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 232:268, ack 1, win 501, length 36
+00:22:46.398746 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 1022, length 0
+00:22:49.725831 IP scanner-13.ch1.censys-scanner.com.20224 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ftps: Flags [S], seq 2271120243, win 1024, options [mss 1460], length 0

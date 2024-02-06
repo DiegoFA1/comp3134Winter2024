@@ -1,0 +1,34 @@
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:18:57.820165 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 1957100601:1957100709, ack 1056651713, win 501, length 108
+00:18:57.820283 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 108:264, ack 1, win 501, length 156
+00:18:57.820375 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 264:368, ack 1, win 501, length 104
+00:18:57.842105 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 368, win 1023, length 36
+00:18:57.842105 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 1024, length 0
+00:18:57.842105 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1023, length 0
+00:18:57.884195 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [.], ack 37, win 501, length 0
+00:18:57.936216 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.32902 > 67.207.67.2.domain: 24292+ [1au] PTR? 112.168.227.99.in-addr.arpa. (56)
+00:18:57.936366 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.41694 > 67.207.67.2.domain: 57484+ [1au] PTR? 112.168.227.99.in-addr.arpa. (56)
+00:18:57.941791 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.32902: 24292 1/0/1 PTR cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com. (125)
+00:18:57.942440 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.60714 > 67.207.67.2.domain: 45442+ [1au] PTR? 220.153.182.147.in-addr.arpa. (57)
+00:18:57.994600 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.41694: 57484 1/0/1 PTR cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com. (125)
+00:18:58.019069 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.60714: 45442 NXDomain 0/1/1 (124)
+00:18:58.019260 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.60714 > 67.207.67.2.domain: 45442+ PTR? 220.153.182.147.in-addr.arpa. (46)
+00:18:58.034433 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.60714: 45442 NXDomain 0/1/0 (113)
+00:18:58.035223 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 368:1692, ack 37, win 501, length 1324
+00:18:58.035691 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.46674 > 67.207.67.2.domain: 784+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+00:18:58.035803 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.58702 > 67.207.67.2.domain: 30367+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+00:18:58.036176 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.58702: 30367 NXDomain 0/1/1 (120)
+00:18:58.036232 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.46674: 784 NXDomain 0/1/1 (120)
+00:18:58.036238 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.58702 > 67.207.67.2.domain: 30367+ PTR? 2.67.207.67.in-addr.arpa. (42)
+00:18:58.036432 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.46674 > 67.207.67.2.domain: 784+ PTR? 2.67.207.67.in-addr.arpa. (42)
+00:18:58.036493 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.58702: 30367 NXDomain 0/1/0 (109)
+00:18:58.036681 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.46674: 784 NXDomain 0/1/0 (109)
+00:18:58.094277 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1692, win 1026, length 0
+00:19:02.106882 IP apzg-0720e-097.stretchoid.com.42342 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.smtp: Flags [S], seq 1732556415, win 65535, length 0
+00:19:04.062701 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 1692:4296, ack 37, win 501, length 2604
+00:19:04.063065 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.51575 > 67.207.67.2.domain: 30899+ [1au] PTR? 41.213.241.192.in-addr.arpa. (56)
+00:19:04.063227 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.53513 > 67.207.67.2.domain: 22954+ [1au] PTR? 41.213.241.192.in-addr.arpa. (56)
+00:19:04.077771 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.53513: 22954 1/0/1 PTR apzg-0720e-097.stretchoid.com. (99)
+00:19:04.077771 IP 67.207.67.2.domain > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.51575: 30899 1/0/1 PTR apzg-0720e-097.stretchoid.com. (99)

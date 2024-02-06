@@ -1,0 +1,15 @@
+root@comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:20:40.523963 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 1957151089:1957151197, ack 1056652253, win 501, length 108
+E...t.@.@.......c..p....t..q>.;.P...:m....?.>.6...<..A>}..u..fC]F0.t....er~.T....p>#F:...;4.S...I..._...F....$.B..&....F....iV]..@(c*..{./.K..y[.I.s
+00:20:40.524082 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 108:196, ack 1, win 501, length 88
+E...t.@.@.......c..p....t...>.;.P...:Y.. ...F...$wPn..}.*.1R....4..P......y..0.W..`...k.....T53.....n...\D3..[.....M%.!.e.4D.j.0
+00:20:40.524150 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 196:264, ack 1, win 501, length 68
+E..lt.@.@.......c..p....t..5>.;.P...:E..*..G*..y..24.6a. k.k....z,3%.........=r..g..\..P..f.D..G&....z......
+00:20:40.524191 IP comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334: Flags [P.], seq 264:368, ack 1, win 501, length 104
+E...t.@.@.......c..p....t..y>.;.P...:i..d...-o{.wg....N.-......6l.$h... ..........o.i....a.TA....9qN;../.#.l......W...K.......P,..1..#@.m.......
+00:20:40.541639 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 264, win 1023, length 0
+E..(..@.y...c..p........>.;.t..yP....0....
+00:20:40.577062 IP cpe34bdfa8b005e-cm34bdfa8b005b.cpe.net.cable.rogers.com.60334 > comp3134-lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1022, length 0
+E..(..@.y...c..p........>.;.t...P.........
