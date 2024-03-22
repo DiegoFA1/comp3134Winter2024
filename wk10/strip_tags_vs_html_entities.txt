@@ -1,0 +1,2 @@
+With strip_tags applied, HTML tags are removed from the input.
+With htmlentities applied (commented out), characters are converted to HTML entities.

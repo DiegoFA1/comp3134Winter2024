@@ -1,0 +1,8 @@
+1) I searched for the word "day" and it directed me to a page with the parameter "day"
+
+2) If I search for a word that doesnt exists it leads me to a page for no results
+
+3) I got the same page for no results, the url is https://www.dictionary.com/browse/%3Cscript%3Ealert(%2527hello%2527)%3C%2Fscript%3E
+
+4) I got a page stating that they could not find the page that I was looking for
+
