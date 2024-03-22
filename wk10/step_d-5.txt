@@ -1,0 +1,4 @@
+In this page we can see all the directories on the www directory
+
+As given a parameter which does not exist, the php file gives us the content of its root directory which may
+has sensitive directories.

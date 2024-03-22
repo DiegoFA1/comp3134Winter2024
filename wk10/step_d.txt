@@ -1,0 +1,4 @@
+The issue is that given that the hello file or directory does not exists, we receive two warnings in which
+we can see the whole path of the php file, being a security issue.
+
+The sensitive information is the path of the directory

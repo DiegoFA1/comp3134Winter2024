@@ -1,0 +1,4 @@
+In this page we can see a lot of directories which may contain private data
+
+This page gives all the directories availables at the ../.. level, which are accessible to see their content
+thanks to the php file.

@@ -1,0 +1,2 @@
+The problem is that the comments have sensitive data
+The solution is to delete the comments or to add php code
